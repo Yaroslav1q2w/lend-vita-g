@@ -53,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-	// Ініціалізація другого слайдера
 	const secondSlider = new Swiper("#secondSlider", {
 		loop: true,
 		navigation: {
@@ -61,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
 			nextEl: ".custom-prev-arrow5",
 		},
 		autoplay: {
-			delay: 2000, // Час між слайдами у мілісекундах
-			disableOnInteraction: false, // Не зупиняти автовідтворення після взаємодії користувача
+			delay: 2000,
+			disableOnInteraction: false,
 		},
 	});
 });

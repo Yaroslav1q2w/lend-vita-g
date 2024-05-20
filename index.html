@@ -726,8 +726,7 @@
 											flex-direction: column;
 											-moz-box-align: center;
 											align-items: center;
-											/* background: rgba(255, 255, 255, 0.4) none repeat scroll 0%
-                      0%; */
+
 											border-radius: 20px;
 											position: relative;
 											text-align: center;
@@ -945,7 +944,6 @@
 
 									cards.forEach(function (card) {
 										card.addEventListener("click", function () {
-											// Удаляем класс card_active у всех карточек
 											cards.forEach(function (c) {
 												c.classList.remove("card_active");
 											});
@@ -953,7 +951,6 @@
 											const cardData = card.querySelector(".card__data");
 											hiddenInput.value = cardData.innerText;
 
-											// Добавляем класс card_active только к текущей карточке
 											card.classList.add("card_active");
 										});
 									});
