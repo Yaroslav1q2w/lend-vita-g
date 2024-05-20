@@ -172,7 +172,7 @@
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
-	z-index: 10; /* Збільште значення z-index, якщо потрібно */
+	z-index: 10;
 }
 .custom-next-arrow {
 	right: 10px;
@@ -739,7 +739,7 @@
 
 	.custom-prev-arrow5 {
 		position: absolute;
-		bottom: 0px; /* Відстань від низу */
+		bottom: 0px;
 		transform: translateX(-50%);
 		right: 30%;
 		padding: 10px;
@@ -748,7 +748,7 @@
 
 	.custom-next-arrow5 {
 		position: absolute;
-		bottom: 0px; /* Відстань від низу */
+		bottom: 0px;
 		transform: translateX(-50%);
 		left: 40%;
 		padding: 10px;
@@ -808,8 +808,6 @@
 	.section-6__videos {
 		display: none;
 	}
-
-	/* Додайте зображення для стрілок або інші стилі за потребою */
 }
 
 /* //////////////////////// */
